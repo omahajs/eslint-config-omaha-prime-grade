@@ -1,5 +1,5 @@
 eslint-config-omaha-prime-grade
----------------------------------
+===============================
 > Shareable ESLint config to make "Prime Grade" quality code
 
 Getting Started

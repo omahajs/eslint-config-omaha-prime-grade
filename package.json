@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-omaha-prime-grade",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config to make \"Prime Grade\" quality code",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omahajs/eslint-config-omaha-prime-grade.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "quality",
+    "omaha"
+  ],
+  "author": "Jason Wohlgemuth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omahajs/eslint-config-omaha-prime-grade/issues"
+  },
+  "homepage": "https://github.com/omahajs/eslint-config-omaha-prime-grade#readme"
+}

@@ -7,22 +7,22 @@ Getting Started
 > It is assumed that you have already configured your project to use ESLint.  If this is not
 the case, please see the [ESLint documentation](http://eslint.org/docs/user-guide/configuring).
 
-#1 Add **omaha-prime-grade** to the `extends` object of your ESLint configuration file
+- Add **omaha-prime-grade** to the `extends` object of your ESLint configuration file
 
-- JavaScript
+  - JavaScript
 ```javascript
 module.exports = {
     extends: 'omaha-prime-grade'
 };
 ```
-- JSON
+  - JSON
 ```json
 {
     "extends": "omaha-prime-grade"
 }
 ```
 
-#2 **Smile**. You are done. Your code will thank you later.
+- **Smile**. You are done. Your code will thank you later.
 
 Why "Prime Grade"?
 ------------------

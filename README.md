@@ -24,6 +24,9 @@ module.exports = {
 
 - **Smile**. You are done. Your code will thank you later.
 
+> All rules promote writing *better* code, but *[some](RULES_FOR_SECURITY.md)* address [MITRE](https://cwe.mitre.org/) defined software weaknesses too.
+
+
 Why "Prime Grade"?
 ------------------
 - Omaha is known for its [high quality steak](http://www.omahasteaks.com/buy/Steaks).

@@ -9,13 +9,13 @@ the case, please see the [ESLint documentation](http://eslint.org/docs/user-guid
 
 - Add **omaha-prime-grade** to the `extends` object of your ESLint configuration file
 
-  - JavaScript
+*JavaScript*
 ```javascript
 module.exports = {
     extends: 'omaha-prime-grade'
 };
 ```
-  - JSON
+*JSON*
 ```json
 {
     "extends": "omaha-prime-grade"

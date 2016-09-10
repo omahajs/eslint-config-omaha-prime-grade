@@ -1,3 +1,7 @@
+<div align="center">
+    <a href="https://omaha.js.org/"><img src="https://omaha.js.org/assets/images/logo.png?v=1.0" alt="OMAHA JS" height="225"/></a>
+</div>
+
 eslint-config-omaha-prime-grade [![npm](https://img.shields.io/npm/v/eslint-config-omaha-prime-grade.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/eslint-config-omaha-prime-grade) [![npm](https://img.shields.io/npm/l/eslint-config-omaha-prime-grade.svg?maxAge=2592000?style=flat-square)](https://github.com/omahajs/eslint-config-omaha-prime-grade/blob/master/LICENSE)
 ===============================
 > Shareable ESLint config to make "Prime Grade" quality code

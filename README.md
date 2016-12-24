@@ -11,6 +11,7 @@ Getting Started
 > It is assumed that you have already configured your project to use ESLint.  If this is not
 the case, please see the [ESLint documentation](http://eslint.org/docs/user-guide/configuring).
 
+- Install with `npm install eslint-config-omaha-prime-grade --save-dev`
 - Add **omaha-prime-grade** to the `extends` attribute of your ESLint configuration object
 
 *JavaScript*

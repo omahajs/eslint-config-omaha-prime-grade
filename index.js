@@ -5,6 +5,11 @@ var MAX_LINE_LENGTH        = 150;
  fix --> indicates that rule can be "auto-fixed" by ESLint
 */
 module.exports = {
+    env: {
+        // node: true,
+        // es6: true,
+        browser: true
+    },
     globals: {
         Promise: true,
         module: true,
@@ -30,7 +35,7 @@ module.exports = {
  /*fix*/'linebreak-style': ['warn', 'unix'],
         'max-depth': ['warn', 3],
         'max-len': ['warn', {code: MAX_LINE_LENGTH, comments: 200}],
-        'max-nested-callbacks': ['warn', 3],
+        'max-nested-callbacks': ['warn', 4],
         'max-params': ['warn', 5],
         'new-cap': ['warn'],
         'no-alert': ['warn'],

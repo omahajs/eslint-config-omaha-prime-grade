@@ -15,6 +15,7 @@ module.exports = {
         module: true,
         exports: true
     },
+    plugins: ['compat'],
     rules: {
  /*fix*/'array-bracket-spacing': ['warn'],
         'block-scoped-var': ['error'],

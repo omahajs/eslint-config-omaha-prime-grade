@@ -31,6 +31,9 @@ module.exports = {
 
 > All rules promote writing *better* code, but ***[some](RULES_FOR_SECURITY.md)*** address [MITRE](https://cwe.mitre.org/) defined software weaknesses too.
 
+Using the `compat` plugin
+-------------------------
+- See the [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat#targeting-browsers) repo for details
 
 Why "Prime Grade"?
 ------------------

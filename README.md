@@ -4,6 +4,8 @@
 
 eslint-config-omaha-prime-grade [![npm](https://img.shields.io/npm/v/eslint-config-omaha-prime-grade.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/eslint-config-omaha-prime-grade) [![npm](https://img.shields.io/npm/l/eslint-config-omaha-prime-grade.svg?maxAge=2592000?style=flat-square)](https://github.com/omahajs/eslint-config-omaha-prime-grade/blob/master/LICENSE)
 ===============================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/omahajs/eslint-config-omaha-prime-grade.svg)](https://greenkeeper.io/)
 > Shareable ESLint config to make "Prime Grade" quality code
 
 Getting Started

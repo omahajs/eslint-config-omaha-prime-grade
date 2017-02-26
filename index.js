@@ -17,6 +17,7 @@ module.exports = {
     },
     plugins: ['compat'],
     rules: {
+        'compat/compat': ['error'],
  /*fix*/'array-bracket-spacing': ['warn'],
         'block-scoped-var': ['error'],
         'brace-style': ['warn', '1tbs', {allowSingleLine: true}],

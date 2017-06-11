@@ -31,6 +31,7 @@ module.exports = {
         'dot-location': ['error', 'property'],
         'dot-notation': ['warn'],
         'eqeqeq': ['error'],
+        'guard-for-in': ['error'],
  /*fix*/'indent': ['warn', 4, {SwitchCase: 1}],
         'key-spacing': ['warn', {beforeColon: false, afterColon: true, mode: 'minimum'}],
  /*fix*/'keyword-spacing': ['warn'],
@@ -51,6 +52,7 @@ module.exports = {
         'no-fallthrough': ['error'],
         'no-floating-decimal': ['warn'],
         'no-implied-eval': ['error'],
+        'no-irregular-whitespace': ['error'],
         'no-magic-numbers': ['warn', {ignore: ALLOWED_MAGIC_NUMBERS}],
         'no-multiple-empty-lines': ['warn', {max: 1}],
  /*fix*/'no-multi-spaces': ['warn', {exceptions: {VariableDeclarator: true, Property: true}}],
@@ -76,6 +78,7 @@ module.exports = {
         'strict': ['error'],
         'valid-jsdoc': ['error'],
         'valid-typeof': ['error'],
+ /*fix*/'wrap-iife': ['warn'],
         'yoda': ['warn']
     }
 }

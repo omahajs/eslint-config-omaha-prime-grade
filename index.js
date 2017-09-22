@@ -67,6 +67,7 @@ module.exports = {
         'no-with': ['error'],
         'one-var': ['warn', 'never'],
         'one-var-declaration-per-line': ['warn'],
+ /*fix*/'quote-props': ['warn', 'as-needed'],
  /*fix*/'quotes': ['warn', 'single'],
         'radix': ['warn'],
  /*fix*/'semi': ['error', 'always'],

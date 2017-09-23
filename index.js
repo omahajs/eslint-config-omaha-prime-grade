@@ -18,6 +18,8 @@ module.exports = {
     plugins: ['compat'],
     rules: {
         'compat/compat': ['error'],
+ /*fix*/'arrow-body-style': ['error', 'as-needed'],
+ /*fix*/'arrow-parens': ['error', 'as-needed'],
  /*fix*/'array-bracket-spacing': ['warn'],
         'block-scoped-var': ['error'],
         'brace-style': ['warn', '1tbs', {allowSingleLine: true}],

@@ -47,6 +47,7 @@ module.exports = {
         'no-array-constructor': ['warn'],
         'no-console': ['warn'],
         'no-constant-condition': ['error'],
+        'no-const-assign': ['error'],
         'no-debugger': ['error'],
  /*fix*/'no-extra-semi': ['error'],
         'no-empty': ['warn'],
@@ -69,6 +70,9 @@ module.exports = {
         'no-with': ['error'],
         'one-var': ['warn', 'never'],
         'one-var-declaration-per-line': ['warn'],
+ /*fix*/'prefer-const': ['error'],
+ /*fix*/'prefer-spread': ['error'],
+ /*fix*/'prefer-template': ['error'],
  /*fix*/'quote-props': ['warn', 'as-needed'],
  /*fix*/'quotes': ['warn', 'single'],
         'radix': ['warn'],
@@ -84,4 +88,4 @@ module.exports = {
  /*fix*/'wrap-iife': ['warn'],
         'yoda': ['warn']
     }
-}
+};

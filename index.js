@@ -1,4 +1,4 @@
-var ALLOWED_MAGIC_NUMBERS  = [-1, 0, 1, 10, 100, 1000];
+var ALLOWED_MAGIC_NUMBERS  = [-1, 0, 1, 2, 3, 10, 100, 1000];
 var MAX_ALLOWED_COMPLEXITY = 5;
 var MAX_LINE_LENGTH        = 150;
 /*
@@ -15,9 +15,16 @@ module.exports = {
         module: true,
         exports: true
     },
-    plugins: ['compat'],
+    plugins: [
+        'compat',
+        'promise'
+    ],
     rules: {
         'compat/compat': ['error'],
+        'promise/param-names': ['warn'],
+        'promise/always-return': ['error'],
+        'promise/catch-or-return': ['error'],
+        'promise/no-return-in-finally': ['warn'],
  /*fix*/'arrow-body-style': ['error', 'as-needed'],
  /*fix*/'arrow-parens': ['error', 'as-needed'],
  /*fix*/'array-bracket-spacing': ['warn'],

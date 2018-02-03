@@ -24,7 +24,7 @@ module.exports = {
         'promise/param-names': ['warn'],
         'promise/always-return': ['error'],
         'promise/catch-or-return': ['error'],
-        'promise/no-return-in-finally': ['warn']
+        'promise/no-return-in-finally': ['warn'],
  /*fix*/'arrow-body-style': ['error', 'as-needed'],
  /*fix*/'arrow-parens': ['error', 'as-needed'],
  /*fix*/'array-bracket-spacing': ['warn'],

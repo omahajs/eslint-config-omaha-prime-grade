@@ -70,7 +70,7 @@ module.exports = {
         'no-redeclare': ['error'],
  /*fix*/'no-spaced-func': ['warn'],
  /*fix*/'no-trailing-spaces': ['warn'],
-        'no-undef': ['error'],
+        'no-undef': ['error', {typeof: true}],
         'no-unexpected-multiline': ['error'],
         'no-unreachable': ['error'],
         'no-unused-vars': ['error'],

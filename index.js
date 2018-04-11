@@ -56,6 +56,7 @@ module.exports = {
         'no-constant-condition': ['error'],
         'no-const-assign': ['error'],
  /*fix*/'no-debugger': ['error'],
+        'no-dupe-keys': ['error'],
  /*fix*/'no-extra-semi': ['error'],
         'no-empty': ['warn'],
         'no-empty-pattern': ['error'],

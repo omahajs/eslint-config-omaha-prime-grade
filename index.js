@@ -1,6 +1,6 @@
-var ALLOWED_MAGIC_NUMBERS  = [-1, 0, 1, 2, 3, 10, 100, 1000];
-var MAX_ALLOWED_COMPLEXITY = 5;
-var MAX_LINE_LENGTH        = 150;
+const ALLOWED_MAGIC_NUMBERS  = [-1, 0, 1, 2, 3, 10, 100, 1000];
+const MAX_ALLOWED_COMPLEXITY = 5;
+const MAX_LINE_LENGTH        = 150;
 /*
  fix --> indicates that rule can be "auto-fixed" by ESLint
 */

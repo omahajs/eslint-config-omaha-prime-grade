@@ -79,6 +79,7 @@ module.exports = {
  /*fix*/'no-var': ['error'],
         'no-with': ['error'],
  /*fix*/'object-shorthand': ['error', 'properties'],
+ /*fix*/'object-curly-spacing': ['error'],
         'one-var': ['warn', 'never'],
         'one-var-declaration-per-line': ['warn'],
  /*fix*/'prefer-const': ['error'],

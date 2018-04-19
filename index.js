@@ -96,7 +96,7 @@ module.exports = {
  /*fix*/'space-in-parens': ['warn'],
  /*fix*/'space-infix-ops': ['warn'],
  /*fix*/'space-unary-ops': ['warn'],
-        'strict': ['error'],
+ /*fix*/'strict': ['error'],
         'valid-jsdoc': ['error'],
         'valid-typeof': ['error'],
  /*fix*/'wrap-iife': ['warn'],

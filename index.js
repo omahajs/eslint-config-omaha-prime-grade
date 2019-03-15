@@ -95,7 +95,7 @@ module.exports = {
  /*fix*/'prefer-spread': ['error'],
  /*fix*/'prefer-template': ['error'],
  /*fix*/'quote-props': ['warn', 'as-needed'],
- /*fix*/'quotes': ['warn', 'single'],
+ /*fix*/'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
         'radix': ['warn'],
  /*fix*/'rest-spread-spacing': ['error', 'never'],
  /*fix*/'semi': ['error', 'always'],

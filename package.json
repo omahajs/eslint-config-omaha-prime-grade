@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-omaha-prime-grade",
-  "version": "10.2.0",
+  "version": "10.3.0",
   "description": "Shareable ESLint config to make \"Prime Grade\" quality code",
   "main": "index.js",
   "repository": {

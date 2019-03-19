@@ -100,7 +100,7 @@ module.exports = {
  /*fix*/'rest-spread-spacing': ['error', 'never'],
  /*fix*/'semi': ['error', 'always'],
  /*fix*/'space-before-blocks': ['warn'],
- /*fix*/'space-before-function-paren': ['warn', 'never'],
+ /*fix*/'space-before-function-paren': ['warn', {anonymous: 'never', named: 'never', asyncArrow: 'always'}],
  /*fix*/'space-in-parens': ['warn'],
  /*fix*/'space-infix-ops': ['warn'],
  /*fix*/'space-unary-ops': ['warn'],

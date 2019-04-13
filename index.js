@@ -106,7 +106,6 @@ module.exports = {
  /*fix*/'space-unary-ops': ['warn'],
  /*fix*/'strict': ['error'],
  /*fix*/'template-curly-spacing': ['error'],
-        'valid-jsdoc': ['error'],
         'valid-typeof': ['error'],
  /*fix*/'wrap-iife': ['warn'],
         'yoda': ['warn']

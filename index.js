@@ -112,7 +112,6 @@ module.exports = {
         'radix': ['warn'],
  /*fix*/'rest-spread-spacing': ['error', 'never'],
  /*fix*/'semi': ['error', 'always'],
- /*fix*/'sort-imports': ['warn'],
  /*fix*/'space-before-blocks': ['warn'],
  /*fix*/'space-before-function-paren': ['warn', {anonymous: 'never', named: 'never', asyncArrow: 'always'}],
  /*fix*/'space-in-parens': ['warn'],

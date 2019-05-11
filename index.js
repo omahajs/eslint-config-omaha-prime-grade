@@ -53,7 +53,7 @@ module.exports = {
         'max-nested-callbacks': ['warn', 4],
         'max-params': ['warn', 5],
         'new-cap': ['warn'],
- /*fix*/'newline-per-chained-call': ['warn'],
+ /*fix*/'newline-per-chained-call': ['warn', {ignoreChainWithDepth: 3}],
         'no-alert': ['warn'],
         'no-array-constructor': ['error'],
         'no-console': ['warn'],

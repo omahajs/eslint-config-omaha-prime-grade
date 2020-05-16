@@ -19,6 +19,9 @@
     "url": "https://github.com/omahajs/eslint-config-omaha-prime-grade/issues"
   },
   "homepage": "https://github.com/omahajs/eslint-config-omaha-prime-grade#readme",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
   "dependencies": {
     "eslint-plugin-compat": "^2.0.0",
     "eslint-plugin-promise": "^3.6.0"

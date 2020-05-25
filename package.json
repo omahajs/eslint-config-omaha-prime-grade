@@ -22,7 +22,5 @@
   "scripts": {
     "postversion": "git push && git push --tags"
   },
-  "dependencies": {
-    "eslint-plugin-promise": "^3.6.0"
-  }
+  "dependencies": {}
 }

@@ -15,9 +15,6 @@ module.exports = {
         module: true,
         exports: true
     },
-    plugins: [
-        'promise'
-    ],
     rules: {
         'consistent-this': ['warn', 'self'],
         'promise/param-names': ['warn'],

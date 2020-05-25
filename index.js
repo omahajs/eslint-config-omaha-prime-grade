@@ -16,11 +16,9 @@ module.exports = {
         exports: true
     },
     plugins: [
-        'compat',
         'promise'
     ],
     rules: {
-        'compat/compat': ['error'],
         'consistent-this': ['warn', 'self'],
         'promise/param-names': ['warn'],
         'promise/always-return': ['error'],

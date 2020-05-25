@@ -23,7 +23,6 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "eslint-plugin-compat": "^2.0.0",
     "eslint-plugin-promise": "^3.6.0"
   }
 }
